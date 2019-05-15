@@ -5,7 +5,7 @@ RUN source activate rapids && conda install -y \
         matplotlib \
         scikit-learn \
         seaborn \
-        python-louvain
+        python-louvain \
         jinja2 \
         && pip install graphistry mockito
 
